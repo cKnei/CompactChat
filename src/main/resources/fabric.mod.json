@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "compact-chat",
+	"version": "${version}",
+	"name": "Chat Compact",
+	"description": "Stacks duplicate chat messages to avoid spam.",
+	"authors": [
+		"notKnei"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/compactchat/icon.png",
+	"environment": "*",
+	"mixins": [
+		"compactchat.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

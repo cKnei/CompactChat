@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "at.notknei.compactchat.mixins",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ChatHudA",
+		"ChatHudM"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
